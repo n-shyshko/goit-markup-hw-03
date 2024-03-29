@@ -1,0 +1,164 @@
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    color:#434455;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Navigation */
+
+.nav-logo {
+font-family: "Raleway", sans-serif;
+font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.accent {
+    color:#2e2f42;
+}
+
+.nav-menu-link {
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.nav-menu .nav-menu-link:hover,
+.nav-menu .nav-menu-link:focus {
+color:#404bbf;
+}
+
+.address {
+    font-style: normal;
+}
+
+.address-menu-link {
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
+}
+
+.address-menu .address-menu-link:hover,
+.address-menu .address-menu-link:focus {
+    color: #404bbf;
+}
+
+/* Hero section */
+
+.hero-sec {
+    background-color: #2e2f42;
+}
+
+.hero-heading {
+font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #fff;
+}
+
+.hero-btn {
+font-family: inherit;
+font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    background-color: #4d5ae5;
+    cursor: pointer;
+}
+
+.hero-sec .hero-btn:hover,
+.hero-sec .hero-btn:focus {
+    background-color: #404bbf;
+}
+
+/* Our Team section */
+
+.our-team {
+    background-color: #f4f4fd;
+}
+
+.team-list-item {
+    background-color: #fff;
+}
+
+/* Portfolio section */
+
+.portfolio-list-image {
+    background-color: #4d5ae5;
+}
+
+/* Solution, Our Team, Portfolio sections headings */
+
+.section-heading {
+font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+ }
+
+.solution-list-heading,
+.team-list-heading,
+.portfolio-list-heading {
+font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+  }
+
+/* Solution, Our Team, Portfolio sections text */
+
+.solution-list-text,
+.team-list-text,
+.portfolio-list-text {
+font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+/* Footer */
+
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+}
+
+.accent-footer {
+    color: #f4f4fd;
+}
+
+.page-footer{
+    background-color: #2e2f42;
+}
+
+.page-footer-text {
+    font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
+}
