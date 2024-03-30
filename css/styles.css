@@ -278,7 +278,14 @@ font-size: 16px;
 
 /* Footer */
 
+.page-footer {
+    /* display: block; */
+    background-color: #2e2f42;
+}
+
+
 .footer-logo {
+    display: block;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
         font-size: 18px;
@@ -286,19 +293,22 @@ font-size: 16px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        padding-top: 100px;
+        padding-bottom: 16px;
+    
 }
 
 .accent-footer {
     color: #f4f4fd;
 }
 
-.page-footer{
-    background-color: #2e2f42;
-}
-
 .page-footer-text {
+    display: block;
     font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #f4f4fd;
+        max-width: 420px;
+        padding-bottom: 100px; 
+     
 }
