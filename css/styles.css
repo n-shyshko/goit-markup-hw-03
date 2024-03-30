@@ -36,7 +36,7 @@ p {
 .header {
     border-bottom: 1px solid #e7e9fc;
     width: 1440px;
-    height: 72px;
+    /* height: 72px; */
 }
 
 .header-container {
@@ -210,14 +210,13 @@ width: calc((100% - 2 * 24px) / 3);
     text-align: center;
 }
 
-
-
 /* Portfolio section */
 
 .portfolio-list{
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
+    padding-bottom: 120px;
 }
 
 .portfolio-list-item {
